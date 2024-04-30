@@ -10,7 +10,14 @@
 # popitem - Apaga o último item adicionado
 # update - Atualiza um dicionário com outro
 
+
+
+
+
 # import copy (copy.deepcopy) - para cópia profunda (copiar tudo)
+
+
+
 
 
 d1 = {
