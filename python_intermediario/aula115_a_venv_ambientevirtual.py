@@ -18,7 +18,8 @@ Abra a pasta do seu projeto no terminal e digite:
 python -m venv venv
 
 Para ativar o ambiente virtual:
-A a pasta do seu projeto e digite no terminal <nome do ambiente(venv)>\Scripts\activate
+Abra a pasta do seu projeto e digite no terminal 
+<nome do ambiente(venv)>\Scripts\activate
 
 Para desativar:
 deactivate
