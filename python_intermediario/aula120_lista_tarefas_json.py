@@ -1,11 +1,22 @@
 import os
 import json
 
-
-with open('aula_120.json', 'r', encoding='utf8') as arquivo:
-    task_list = list(json.load(arquivo))
-
 erased = []
+
+try:
+    with open('aula_120.json', 'r', encoding='utf8') as arquivo:
+        task_list = list(json.load(arquivo))
+
+except FileNotFoundError:
+    lista = []
+    with open('aula_120.json', 'w+', encoding='utf8') as arquivo:
+        json.dump(lista,
+            arquivo,
+            ensure_ascii=True,
+            indent=2,
+        )
+
+    task_list = list(json.load(arquivo))
 
 
 def save_json(lista, doc_json):
