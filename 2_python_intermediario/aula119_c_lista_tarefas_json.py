@@ -19,7 +19,7 @@ except FileNotFoundError:
     task_list = list(json.load(arquivo))
 
 
-def save_json(lista, doc_json):
+def dump_json(lista, doc_json):
     with open(doc_json, 'w+', encoding='utf8') as arquivo:
         json.dump(lista,
             arquivo,
@@ -29,7 +29,7 @@ def save_json(lista, doc_json):
     return
 
 
-def bring_json(doc_json):
+def bring_print_json(doc_json):
     with open(doc_json, 'r', encoding='utf8') as arquivo:
         bring = json.load(arquivo)
         
@@ -44,7 +44,7 @@ while True:
 
     if action == 'listar':
         print('\nA sua lista é:')
-        bring_json('aula119.json')
+        bring_print_json('aula119.json')
 
     elif action == 'desfazer':
         if len(task_list) == 0:
@@ -52,7 +52,7 @@ while True:
             continue
 
         erased.append(task_list.pop(-1))
-        save_json(task_list, 'aula119.json')
+        dump_json(task_list, 'aula119.json')
         print('')
 
     elif action == 'refazer':
@@ -61,7 +61,7 @@ while True:
             continue
 
         task_list.append(erased.pop(-1))
-        save_json(task_list, 'aula119.json')
+        dump_json(task_list, 'aula119.json')
         print('')
 
     elif action == 'clear':
@@ -69,7 +69,7 @@ while True:
 
     else:
         task_list.append(action)
-        save_json(task_list, 'aula119.json')
+        dump_json(task_list, 'aula119.json')
         print('')
     
     continue

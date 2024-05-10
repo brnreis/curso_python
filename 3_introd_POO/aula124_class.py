@@ -1,4 +1,9 @@
+
 # Mantendo estados dentro da classe
+
+# Nesse exemplo o estado que foi mantido é o "False":
+# ele começa como false, mas se eu alterar isso para algum objetio da classe,
+# o objeto mantem a alteração se for chamado novamente
 
 class Camera:
     def __init__(self, nome, filmando=False):

@@ -19,13 +19,15 @@ dc = {
 # PODE FAZER A PARTIR DE LISTAS DE TUPLAS TAMBEM
 lista = [
     ('a', 'valor a'),
-    ('b', 'valor a'),
-    ('b', 'valor a'),
+    ('b', 'valor b'),
+    ('c', 'valor c'),
 ]
 dc = {
     chave: valor
     for chave, valor in lista
 }
+
+print(dc)
 
 # SET COMPREHENSION
 s1 = {2 ** i for i in range(10)}

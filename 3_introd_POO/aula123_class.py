@@ -8,7 +8,7 @@ class Animal:
     def __init__(self, nome):
         self.nome = nome
 
-        variavel = 'valor'
+        variavel = 'valor'    # Essa variavel está dentro do escopo da classe e só pode ser acessada dentro da classe
         print(variavel)
     
     def comendo(self, alimento):
