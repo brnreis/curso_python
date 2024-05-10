@@ -4,12 +4,12 @@ import json
 erased = []
 
 try:
-    with open('aula_120.json', 'r', encoding='utf8') as arquivo:
+    with open('aula119.json', 'r', encoding='utf8') as arquivo:
         task_list = list(json.load(arquivo))
 
 except FileNotFoundError:
     lista = []
-    with open('aula_120.json', 'w+', encoding='utf8') as arquivo:
+    with open('aula119.json', 'w+', encoding='utf8') as arquivo:
         json.dump(lista,
             arquivo,
             ensure_ascii=True,
@@ -44,7 +44,7 @@ while True:
 
     if action == 'listar':
         print('\nA sua lista é:')
-        bring_json('aula_120.json')
+        bring_json('aula119.json')
 
     elif action == 'desfazer':
         if len(task_list) == 0:
@@ -52,7 +52,7 @@ while True:
             continue
 
         erased.append(task_list.pop(-1))
-        save_json(task_list, 'aula_120.json')
+        save_json(task_list, 'aula119.json')
         print('')
 
     elif action == 'refazer':
@@ -61,7 +61,7 @@ while True:
             continue
 
         task_list.append(erased.pop(-1))
-        save_json(task_list, 'aula_120.json')
+        save_json(task_list, 'aula119.json')
         print('')
 
     elif action == 'clear':
@@ -69,7 +69,7 @@ while True:
 
     else:
         task_list.append(action)
-        save_json(task_list, 'aula_120.json')
+        save_json(task_list, 'aula119.json')
         print('')
     
     continue
