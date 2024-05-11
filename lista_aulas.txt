@@ -89,145 +89,145 @@
 
 
 225. (Parte 1) Mixins, Abstração e a união de tudo até aqui
-14m
+
 
 226. (Parte 2) Log, LogFileMixin, LogPrintMixin e a união de tudo até aqui
-11m
+
 
 227. (Parte 3) LogFileMixin e a união de tudo até aqui
-9m
+
 
 228. (Parte 4) Eletrônico, Smartphone com Mixin e a união de tudo até aqui
-14m
+
 
 229. Classes abstratas - Abstract Base Class (abc) - Python Orientado a Objetos
-13m
+
 
 230. abstractmethod para qualquer método já decorado (property e setter)
-15m
+
 
 231. Teoria: polimorfismo, assinatura de métodos e Liskov Substitution Principle
-7m
+
 
 232. Na prática: polimorfismo, assinatura de métodos e Liskov Substitution Principle
-18m
+
 
 233. Criando Exceptions em Python Orientado a Objetos (Exceções)
-4m
+
 
 234. Levantando e tratando suas Exceptions (Exceções)
-10m
+
 
 235. Notas das exceptions em Python 3.11+ (add_notes, __notes__)
-4m
+
 
 236. Teoria: python Special Methods, Magic Methods ou Dunder Methods
-7m
+
 
 237. Python Dunder Methods __repr__ e __str__
-10m
+
 
 238. Exemplo de uso de dunder methods (métodos mágicos)
-8m
+
 
 239. __new__ e __init__ em classes Python
-11m
+
 
 240. Context Manager com classes - Criando e Usando gerenciadores de contexto
-13m
+
 
 241. Exceptions em context manager com classes
-7m
+
 
 242. Context Manager com contextlib.contextmanager
-6m
+
 
 243. Funções decoradoras e decoradores com classes
-11m
+
 
 244. Funções decoradoras e decoradores com métodos
-6m
+
 
 245. Método especial __call__
-4m
+
 
 246. Classes decoradoras (Decorator classes)
-8m
+
 
 247. Teoria: metaclasses são o tipo das classes
-12m
+
 
 248. __new__ de uma metaclass cria e retorna a classe em si
-10m
+
 
 249. __call__ de uma metaclass cria e retorna a instância da classe
-3m
+
 
 250. dir e help + DocStrings de uma linha (Documentação)
-9m
+
 
 251. DocStrings de várias linhas (Documentação)
-5m
+
 
 252. DocStrings em funções (Documentação)
-8m
+
 
 253. DocStrings em class (Documentação)
-8m
+
 
 254. Teoria: enum.Enum (Enumerações)
-6m
+
 
 255. Código: enum.Enum (Enumerações)
-13m
+
 
 256. Exercício com Abstração, Herança, Encapsulamento e Polimorfismo
-8m
+
 
 257. Solução - Criando a classe abstrata Conta
-7m
+
 
 258. Solução - Criando a classe ContaPoupanca
-6m
+
 
 259. Solução - Criando a classe ContaCorrente
-9m
+
 
 260. DICA Extra: tipagem, linters e settings.json do VS Code
-13m
+
 
 261. Solução - Criando a classe Pessoa
-6m
+
 
 262. Solução - Criando a classe Cliente
-12m
+
 
 263. Solução - Criando a classe Banco (Parte 1)
-10m
+
 
 264. Solução - Criando a classe Banco (Parte 2)
-9m
+
 
 265. dataclasses - O que são dataclasses?
-7m
+
 
 266. dataclasses com métodos, property e setter
-3m
+
 
 267. __init__ e __post_init__ em dataclasses
-3m
+
 
 268. Configurações do decorator dataclass
-6m
+
 
 269. asdict e astuple em dataclasses
-1m
+
 
 270. Valores padrão, field e fields em dataclasses
-5m
+
 
 271. namedtuple - tuplas imutáveis com nomes para valores
-10m
+
 
 272. Criando sua própria lista com Iterable, Iterator e Sequence (collections.abc)
-15m
+
