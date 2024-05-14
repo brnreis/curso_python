@@ -119,10 +119,10 @@
 - Aula 146
 
 235. Notas das exceptions em Python 3.11+ (add_notes, __notes__)
-
+- Aula 146
 
 236. Teoria: python Special Methods, Magic Methods ou Dunder Methods
-
+- Aula 147
 
 237. Python Dunder Methods __repr__ e __str__
 
