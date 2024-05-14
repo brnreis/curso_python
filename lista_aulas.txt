@@ -83,40 +83,40 @@
 - Aula 139
 
 223. Teoria - Herança múltipla - Python Orientado a Objetos
-
+- Aula 140
 
 224. Herança múltipla - Python Orientado a Objetos
-
+- Aula 140
 
 225. (Parte 1) Mixins, Abstração e a união de tudo até aqui
-
+- Aula 141 (Pasta)
 
 226. (Parte 2) Log, LogFileMixin, LogPrintMixin e a união de tudo até aqui
-
+- Aula 141 (Pasta)
 
 227. (Parte 3) LogFileMixin e a união de tudo até aqui
-
+- Aula 141 (Pasta)
 
 228. (Parte 4) Eletrônico, Smartphone com Mixin e a união de tudo até aqui
-
+- Aula 141 (Pasta)
 
 229. Classes abstratas - Abstract Base Class (abc) - Python Orientado a Objetos
-
+- Aula 142
 
 230. abstractmethod para qualquer método já decorado (property e setter)
-
+- Aula 143
 
 231. Teoria: polimorfismo, assinatura de métodos e Liskov Substitution Principle
-
+- Aula 144
 
 232. Na prática: polimorfismo, assinatura de métodos e Liskov Substitution Principle
-
+- Aula 145
 
 233. Criando Exceptions em Python Orientado a Objetos (Exceções)
-
+- Aula 146
 
 234. Levantando e tratando suas Exceptions (Exceções)
-
+- Aula 146
 
 235. Notas das exceptions em Python 3.11+ (add_notes, __notes__)
 

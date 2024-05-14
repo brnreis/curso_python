@@ -10,7 +10,7 @@
 class Caneta:
     def __init__(self, cor):
         # private protected
-        self.cor = cor
+        self._cor = cor
         self._cor_tampa = None
 
     @property
@@ -33,7 +33,7 @@ class Caneta:
 
 
 caneta = Caneta('Azul')
-caneta.cor = 'Rosa'
+caneta.cor = 'Verde'
 caneta.cor_tampa = 'Azul'
 print(caneta.cor)
 print(caneta.cor_tampa)
