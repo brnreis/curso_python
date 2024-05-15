@@ -32,7 +32,7 @@
 - Aula 127
 
 208. Curiosidades sobre convenções de nomes
-
+- XXXXXXXX
 
 209. Métodos de classe (@classmethod) + factories methods (métodos fábrica)
 - Aula 128
@@ -125,25 +125,25 @@
 - Aula 147
 
 237. Python Dunder Methods __repr__ e __str__
-
+- Aula 147
 
 238. Exemplo de uso de dunder methods (métodos mágicos)
-
+- Aula 147
 
 239. __new__ e __init__ em classes Python
-
+- Aula 148
 
 240. Context Manager com classes - Criando e Usando gerenciadores de contexto
-
+- Aula 149
 
 241. Exceptions em context manager com classes
-
+- Aula 149
 
 242. Context Manager com contextlib.contextmanager
-
+- Aula 150
 
 243. Funções decoradoras e decoradores com classes
-
+- Aula 151
 
 244. Funções decoradoras e decoradores com métodos
 
