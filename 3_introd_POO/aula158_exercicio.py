@@ -36,8 +36,9 @@ Só será possível sacar se passar na autenticação do banco (descrita acima)
 Banco autentica por um método.
 """
 
-
 from abc import ABC, abstractmethod
+
+
 
 class Pessoa:
     def __init__(self, nome: str, idade: int):
@@ -68,8 +69,6 @@ class Conta(ABC):
     def sacar(self, valor: float): ...
 
 
-
-
 class ContaCorrente(Conta):
     ...
 
@@ -85,7 +84,6 @@ class ContaCorrente(Conta):
 
         
         print(f'Você realizou o saque de {valor} e seu saldo é de {self._saldo}')
-        
 
 
 class ContaPoupanca(Conta):
@@ -115,20 +113,64 @@ class Banco:
     def inserir_cliente(self, *cliente: Cliente):
         self._clientes += cliente
 
-    # @classmethod
-    # def auth_conta(cls, agencia, conta):
-    #     return agencia in cls._agencia and conta in cls._conta
+
+    def auth_conta(self):
+        return user_agencia in [p._agencia for p in self._contas] and user_conta in [p._numero for p in self._contas]
+    
+    def auth_cliente(self):
+        return user_name in [p._nome for p in self._clientes]
     
 
+    def get(self, user_nome):
+        return [vars(inst) for inst in self._clientes if inst._nome == user_nome]
+
+
+
+
 conta1 = ContaCorrente('9088', '00959-3', 0)
-cliente1 = Cliente('Bruno', '35', conta1)
+cliente1 = Cliente('Bruno Reis', '35', conta1)
 bancoitau = Banco()
 bancoitau.inserir_cliente(cliente1)
 bancoitau.inserir_conta(conta1)
 
-conta1.depositar(50)
-conta1.sacar(500)
 
+user_name = input('Digite seu nome: ')
+user_agencia = input('Digite sua agencia: ')
+user_conta = input('Digite sua conta: ')
 
+if bancoitau.auth_conta() and bancoitau.auth_cliente():
+    while True:
+        achar_conta = bancoitau.get('Bruno Reis')[0]
+        # achar_conta['conta'].depositar(50)
+        entrada = input('[D]epositar, [S]acar ou [E]xit: ')
 
+        if entrada == 'D':
+            valor_deposito = input('Valor: ')
+            
+            try:
+                float(valor_deposito)
+            except ValueError:
+                print('O valor deve ser um número positivo')
+                continue
+            
+            achar_conta['conta'].depositar(float(valor_deposito))
+            continue
 
+        elif entrada == 'S':
+            valor_saque = input('Valor: ')
+
+            try:
+                float(valor_saque)
+            except ValueError:
+                print('O valor deve ser um número positivo')
+                continue
+
+            achar_conta['conta'].sacar(float(valor_saque))
+            continue
+
+        elif entrada == 'E':
+            print('ADEUS')
+            break
+
+else:
+    print('Você não está autorizado!')
