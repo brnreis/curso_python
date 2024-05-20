@@ -1,4 +1,4 @@
-import clientes
+import pessoa
 import contas
 
 
@@ -10,7 +10,7 @@ class Banco:
     def inserir_conta(self, *conta: contas.Conta):
         self._contas += conta
 
-    def inserir_cliente(self, *cliente: clientes.Cliente):
+    def inserir_cliente(self, *cliente: pessoa.Cliente):
         self._clientes += cliente
 
 
@@ -26,7 +26,7 @@ class Banco:
     
 
 conta1 = contas.ContaCorrente('9088', '00959-3', 0)
-cliente1 = clientes.Cliente('Bruno Reis', '35', conta1)
+cliente1 = pessoa.Cliente('Bruno Reis', '35', conta1)
 bancoitau = Banco()
 bancoitau.inserir_cliente(cliente1)
 bancoitau.inserir_conta(conta1)
