@@ -1,29 +1,603 @@
-197. Introdução à seção e livros de referência
+13. O que vamos aprender? Devo seguir essa seção?
+2m
 
+14. Me ajude a produzir conteúdo gratuito
+1m
+
+15. Criando meu primeiro módulo Python (*.py)
+4m
+
+16. O interpretador do Python + comentários de código
+4m
+
+17. Docstrings como comentários
+5m
+
+Teste 1: Sobre comentários
+
+18. A função print
+12m
+
+19. Tipo str (string) - Introdução aos tipos de dados
+9m
+
+Teste 2: Sobre print e str
+
+20. Tipo int e float (números) - Introdução aos tipos de dados
+11m
+
+21. Tipo bool (boolean) - Introdução aos tipos de dados
+7m
+
+Teste 3: Sobre int, float e bool
+
+22. Coerção de tipos (convertendo um tipo para outro)
+13m
+
+23. Introdução às variáveis em Python
+12m
+
+24. Exercício com variáveis e tipos de dados
+3m
+
+25. Solução - exercício com variáveis e tipos de dados
+4m
+
+26. Introdução aos operadores aritméticos (matemática)
+11m
+
+27. Concatenação (+) e repetição (*) com operadores aritméticos
+3m
+
+28. Precedência entre os operadores aritméticos
+7m
+
+29. Exercício de programação - Cálculo do IMC (Índice de Massa Corpórea) + Ellipsis
+3m
+
+30. Solução exercício de programação - Cálculo do IMC
+2m
+
+31. Uma introdução às f-strings (formatação de strings)
+6m
+
+32. Formatação de strings com o método format
+12m
+
+Teste 4: Teste seus conhecimentos
+
+33. Usando a função input para coletar dados do usuário
+9m
+
+34. Introdução aos blocos de código + if / elif / else (condicionais)
+11m
+
+35. if, elif e else: entendendo o fluxo do interpretador em condicionais
+11m
+
+36. O Debugger do VS Code e o interpretador do Python lendo os códigos
+8m
+
+37. Operadores relacionais (de comparação) em Python
+7m
+
+38. Exercício de programação com if e comparação
+3m
+
+39. Solução - Exercício de programação com if e comparação
+3m
+
+40. Operador Lógico "and"
+12m
+
+Teste 5: Sobre and
+
+41. Operador Lógico "or"
+8m
+
+42. Operador lógico "not"
+4m
+
+43. Operadores in e not in
+7m
+
+Teste 6: Teste seu conhecimento
+
+44. Interpolação de string com % em Python
+7m
+
+45. Formatação de strings com f-strings
+10m
+
+46. Fatiamento de strings e a função len
+11m
+
+47. Exercício: teste seu conhecimento até aqui
+3m
+
+48. Solução - Exercício: teste seu conhecimento até aqui
+5m
+
+49. Introdução ao try e except para capturar erros (exceptions)
+15m
+
+50. Parte 1: Variáveis, constantes e complexidade de código
+7m
+
+51. Parte 2: Variáveis, constantes e complexidade de código
+9m
+
+52. id - A identidade do valor que está na memória
+3m
+
+53. Flags, is, is not e None
+11m
+
+54. Exercícios - Enunciados
+4m
+
+55. Solução 1 dos Exercícios - Enunciados
+6m
+
+56. Solução 2 dos Exercícios - Enunciados
+7m
+
+57. Solução 3 dos Exercícios - Enunciados
+5m
+
+58. Conversa - tipos built-in, documentação, tipo imutáveis, métodos de string
+15m
+
+59. while e break - Estrutura de repetição (Parte 1)
+10m
+
+60. while - Condição em detalhes
+9m
+
+61. Operadores de atribuição com operadores aritméticos
+5m
+
+62. while + continue - pulando alguma repetição
+8m
+
+63. while + while (laços internos)
+8m
+
+64. Exercício guiado com while
+4m
+
+65. Solução do exercício guiado com while
+6m
+
+66. Exercício guiado - Calculadora - Parte 1
+9m
+
+67. Exercício guiado - Calculadora - Parte 2
+9m
+
+68. Exercício guiado - Calculadora - Parte 3
+5m
+
+69. while / else (recurso peculiar do Python)
+5m
+
+70. while - Qual letra apareceu mais vezes na frase? (Iterando strings com while)
+14m
+
+71. DEBUGGER: while - Qual letra apareceu mais vezes na frase?
+7m
+
+Teste 7: Teste
+
+72. Introdução ao for / in - estrutura de repetição para coisas finitas
+9m
+
+73. range + for para usar intervalos de números
+8m
+
+74. Como o for funciona por baixo dos panos? (next, iter, iterável e iterador)
+15m
+
+75. O que aprendemos com while também funciona no for (continue, break, else, etc)
+5m
+
+76. Exercício - Jogo da palavra secreta
+5m
+
+77. Sobre exercícios - não saber é normal
+3m
+
+78. (Parte 1) Solução do exercício - Jogo da palavra secreta
+8m
+
+79. (Parte 2) Solução do exercício - Jogo da palavra secreta
+8m
+
+80. Tipo list - Introdução às listas mutáveis em Python
+10m
+
+81. Alterando uma lista com índices, del, append e pop (Tipo list)
+14m
+
+82. Inserindo itens em qualquer índice da lista com insert (Tipo list)
+9m
+
+83. Concatenando e estendendo listas em Python
+5m
+
+84. Cuidados com tipos de dados mutáveis - list e copy
+8m
+
+85. for in com tipo list
+2m
+
+86. Exercício - exiba os índices da lista (aula com solução)
+4m
+
+87. Introdução ao empacotamento e desempacotamento
+7m
+
+88. Tipo tuple (tuplas)
+5m
+
+89. enumerate para enumerar valores de iteráveis (pegar índices)
+12m
+
+90. Exercício - crie uma lista de compras com listas
+4m
+
+91. Solução do exercício - crie uma lista de compras com listas (com try / except)
+11m
+
+92. Imprecisão dos números de ponto flutuante + round e decimal.Decimal
+9m
+
+93. split, join e strip são métodos muito úteis da str
+12m
+
+94. Listas dentro de listas (iteráveis dentro de iteráveis)
+8m
+
+95. Detalhes sobre o interpretador do Python
+17m
+
+96. Desempacotamento em chamadas de funções
+7m
+
+97. Operação ternária com Python (if e else de uma linha)
+7m
+
+98. Exercício - Gerar o primeiro dígito de um CPF com Python
+10m
+
+99. Solução do exercício - Gerar o primeiro dígito de um CPF com Python
+9m
+
+100. Exercício - Gerar o segundo dígito de um CPF com Python
+4m
+
+101. Solução do exercício - Gerar o segundo dígito de um CPF com Python
+9m
+
+102. Possíveis problemas e soluções para nosso algoritmo do CPF
+14m
+
+103. Criando um gerador de CPFs com nosso algoritmo e Python
+
+
+
+________________________________________________________________________________
+Seção 4. Python Intermediário - Funções, Dicionários, Módulos, Programação funcional e mais
+
+104. O que vamos aprender nessa seção intermediária?
+- Texto
+
+105. Introdução às funções Python - def define uma função
+- Aula 65
+
+106. Argumentos nomeados e argumentos posicionais (não nomeados) em funções
+- Aula 66
+
+107. Valores padrão para parâmetros em funções Python + NoneType e None
+- Aula 67
+
+108. (Parte 1) Escopo de funções e módulos em Python + global
+- Aula 68
+
+109. (Parte 2) Escopo de funções e módulos em Python + global
+- Aula 69
+
+110. Retorno de valores das funções (return)
+- Aula 70
+
+111. (Parte 1) *args para quantidade de argumentos não nomeados variáveis
+- Aula 71
+
+112. (Parte 2) *args para quantidade de argumentos não nomeados variáveis
+- Aula 71
+
+113. Exercícios com funções + Solução (prepare-se para pausar)
+- Aula 72
+
+114. Higher Order Functions - Funções de primeira classe
+- Aula 73
+
+115. Termos técnicos: Higher Order Functions e First-Class Functions
+- Aula 73
+
+116. Closure e funções que retornam outras funções
+- Aula 74
+
+117. Exercício com funções
+- Aula 75
+
+118. Solução do exercício com funções
+- Aula 75
+
+119. Introdução ao tipo de dados dict - Dicionários em Python
+- Aula 76 a
+
+120. Manipulando chaves e valores em dicionários em Python
+- Aula 76 b
+
+121. (Parte 1) Métodos úteis nos dicionários Python (dict)
+- Aula 76 c
+
+122. Shallow Copy vs Deep Copy em dados mutáveis Python
+- Aula 76 d
+
+123. (Parte 2) Métodos úteis nos dicionários Python (dict)
+- Aula 76 e
+
+124. Exercício - sistema de perguntas e respostas com Python
+- Aula 77 a
+
+125. Solução do Exercício - sistema de perguntas e respostas com Python
+- Aula 77 b
+
+126. Introdução ao tipo set em Python (conjuntos)
+- Aula 78 a
+
+127. Peculiaridades do tipo mutável set em Python
+- Aula 78 b
+
+128. Métodos úteis do tipo set em Python
+- Aula 78 c
+
+129. Operadores importantes para o tipo set (conjuntos)
+- Aula 78 d
+
+130. Exemplo de uso do tipo set
+- Aula 78 d
+
+131. Exercício - Encontre o primeiro duplicado considerando a segunda ocorrência
+- Aula 79
+
+132. Solução - Encontre o primeiro duplicado considerando a segunda ocorrência
+- Aula 79
+
+133. Introdução à função lambda + list.sort e sorted
+- Aula 81
+
+134. Funções lambda complexas (para entendimento)
+- Aula 82
+
+135. Empacotamento e desempacotamento de dicionários + *args e **kwargs
+- Aula 83
+
+136. Introdução à List comprehension em Python
+- Aula 84 a
+
+137. Mapeamento de dados em list comprehension (map)
+- Aula 84 b
+
+138. Filtro de dados em list comprehension (filter)
+- Aula 84 c
+
+139. List comprehension com mais de um for
+- Aula 85
+
+140. Mais detalhes sobre list comprehension
+- Aula 85
+
+141. Dictionary Comprehension e Set Comprehension
+- Aula 86
+
+142. isinstace() - para saber se objeto é de determinado tipo
+- Aula 87
+
+143. Valores Truthy e Falsy, Tipos Mutáveis e Imutáveis
+- Aula 88
+
+144. dir, hasattr e getattr em Python
+- Aula 89
+
+145. Mais detalhes sobre Iterables e Iterators (Iteráveis e Iteradores)
+- Aula 90
+
+146. Generator expression, Iterables e Iterators em Python
+- Aula 90
+
+147. Introdução às Generator functions em Python
+- Aula 91 a b
+
+148. yield from em generator functions
+- Aula 92
+
+149. (Parte 1) try e except para tratar exceções
+- Aula 93 a
+
+150. (Parte 2) try e except para tratar exceções
+- Aula 93 b
+
+151. try, except, else e finally + Built-in Exceptions
+- Aula 94
+
+152. raise - lançando exceções (erros)
+- Aula 95
+
+153. Módulos - import, from, as e *
+- Aula 96
+
+154. Modularização - Entendendo os seus próprios módulos e sys.path no Python
+- Aula 97 a
+
+155. Como importar coisas do seu próprio módulo (ponto de vista do __main__)
+- Aula 97 b
+
+156. Recarregando módulos, importlib e singleton
+- Aula 98 a b
+
+157. Introdução aos packages (pacotes) em Python
+- Aula 99
+
+158. O ponto de vista do __main__ pode te confundir em módulos e pacotes Python
+- Aula 99
+
+159. __init__.py é um arquivo de inicialização dos packages em Python
+- Aula 99
+
+160. Proposta de 3 exercícios em um
+- Aula 100
+
+161. Solução - Proposta de 3 exercícios em um
+- Aula 100
+
+162. Exercício - Adiando execução de funções
+- Aula 101
+
+163. Solução - Exercício - Adiando execução de funções
+- Aula 101
+
+164. Variáveis livres + nonlocal (locals, globals)
+- Aula 102
+
+165. Funções decoradoras em geral
+- Aula 103
+
+166. Decoradores em Python (@syntax_sugar)
+- Aula 104
+
+167. Decoradores com parâmetros
+- Aula 105
+
+168. Ordem de aplicação dos decoradores
+- Aula 106
+
+169. Exercício - Unir listas
+- Aula 107 a b
+
+170. Solução do Exercício + zip e zip_longest do itertools
+- Aula 107 c
+
+171. Exercícios - somando duas listas
+- Aula 107 c
+
+172. Exercício solucionado - somando listas
+- Aula 107 c
+
+173. count é um iterador sem fim (itertools)
+- Aula 108
+
+174. Combinations, Permutations e Product - Itertools
+- Aula 109
+
+175. groupby - agrupando valores (itertools)
+- Aula 110
+
+176. map, partial, GeneratorType e esgotamento de Iterators
+- Aula 111
+
+177. filter é um filtro funcional
+- Aula 112
+
+178. reduce - faz a redução de um iterável em um valor
+- Aula 113
+
+179. Funções recursivas, recursividade e Stack Overflow
+- Aula 114 a
+
+180. Limite de recursão e cuidados com funções recursivas
+- Aula 114 b
+
+181. O que são ambientes virtuais? (venv)
+- Aula 115 a
+
+182. Como criar o seu ambiente virtual com venv
+- Aula 115 a
+
+183. Ativando e desativando o meu ambiente virtual venv
+- Aula 115 a
+
+184. pip - instalando pacotes e bibliotecas
+- Aula 115 b
+
+185. Criando e usando um requirements.txt
+- Aula 116 a b c
+
+186. Criando arquivos com Python + Context Manager with
+- Aula 116 a b c
+
+187. with open (context manager) e métodos úteis do TextIOWrapper
+- Aula 116 a b c
+
+188. Modos de abertura de arquivo e encoding com with open
+- Aula 116 a b c
+
+189. os.remove, os.unlink e os.rename - apagando, renomeando e movendo arquivos
+- Aula 116 a b c
+
+190. Salvando dados Python em JSON com módulo json
+- Aula 117
+
+191. Problema dos parâmetros mutáveis em funções Python
+- Aula 118
+
+192. Exercício - Lista de tarefas com opções de desfazer e refazer
+- Aula 119 a
+
+193. Solução do Exercício - Lista de tarefas com opções de desfazer e refazer
+- Aula 119 b
+
+194. Evitando uso de condicionais + Guard Clause
+- Aula 119 b
+
+195. Exercício (+solução) - salvando a lista de tarefas em JSON
+- Aula 119 c
+
+196. Positional-Only Parameters (/) e Keyword-Only Arguments (*)
+- Aula 119 c
+
+
+________________________________________________________________________________
+Seção 5. Introdução à programação Orientada a Objetos em Python(POO-Classes)
+
+197. Introdução à seção e livros de referência
+- Texto
 
 198. class - Classes são moldes para criar novos objetos
-
+- Aula 120
 
 199. Introdução ao método __init__ (inicializador de atributos)
-
+- Aula 120
 
 200. Métodos em instâncias de classes Python
-
+- Aula 121
 
 201. Entendendo self em classes Python
-
+- Aula 122
 
 202. Escopo da classe e de métodos da classe
-
+- Aula 123
 
 203. Mantendo estados dentro da classe
-
+- Aula 124
 
 204. Atributos de classe
-
+- Aula 125
 
 205. __dict__ e vars para atributos de instância
-
+- Aula 126
 
 206. Exercício - Salve sua classe em JSON
 - Aula 127
@@ -146,88 +720,286 @@
 - Aula 151
 
 244. Funções decoradoras e decoradores com métodos
-
+- Aula 152
 
 245. Método especial __call__
-
+- Aula 153
 
 246. Classes decoradoras (Decorator classes)
-
+- Aula 154
 
 247. Teoria: metaclasses são o tipo das classes
-
+- Aula 155
 
 248. __new__ de uma metaclass cria e retorna a classe em si
-
+- Aula 155
 
 249. __call__ de uma metaclass cria e retorna a instância da classe
-
+- Aula 155
 
 250. dir e help + DocStrings de uma linha (Documentação)
-
+- Aula 156
 
 251. DocStrings de várias linhas (Documentação)
-
+- Aula 156
 
 252. DocStrings em funções (Documentação)
-
+- Aula 156
 
 253. DocStrings em class (Documentação)
-
+- Aula 156
 
 254. Teoria: enum.Enum (Enumerações)
-
+- Aula 157
 
 255. Código: enum.Enum (Enumerações)
-
+- Aula 157
 
 256. Exercício com Abstração, Herança, Encapsulamento e Polimorfismo
-
+- Aula 158 (aula e pastas)
 
 257. Solução - Criando a classe abstrata Conta
-
+- Aula 158 (aula e pastas)
 
 258. Solução - Criando a classe ContaPoupanca
-
+- Aula 158 (aula e pastas)
 
 259. Solução - Criando a classe ContaCorrente
-
+- Aula 158 (aula e pastas)
 
 260. DICA Extra: tipagem, linters e settings.json do VS Code
-
+- Aula 158 (aula e pastas)
 
 261. Solução - Criando a classe Pessoa
-
+- Aula 158 (aula e pastas)
 
 262. Solução - Criando a classe Cliente
-
+- Aula 158 (aula e pastas)
 
 263. Solução - Criando a classe Banco (Parte 1)
-
+- Aula 158 (aula e pastas)
 
 264. Solução - Criando a classe Banco (Parte 2)
-
+- Aula 158 (aula e pastas)
 
 265. dataclasses - O que são dataclasses?
-
+- Aula 159 a
 
 266. dataclasses com métodos, property e setter
-
+- Aula 159 b
 
 267. __init__ e __post_init__ em dataclasses
-
+- Aula 159 c
 
 268. Configurações do decorator dataclass
-
+- Aula 159 d
 
 269. asdict e astuple em dataclasses
-
+- Aula 159 e
 
 270. Valores padrão, field e fields em dataclasses
-
+- Aula 159 f
 
 271. namedtuple - tuplas imutáveis com nomes para valores
-
+- Aula 160
 
 272. Criando sua própria lista com Iterable, Iterator e Sequence (collections.abc)
+- Aula 161
 
+
+________________________________________________________________________________
+Seção 6: Módulos Python - os, datetime, sys, json, csv, selenium, pillow e mais
+
+273. if __name__ == "__main__"
+- Sem aula
+
+274. Criando data e hora em Python com módulo datetime
+- Aula 162 a
+
+275. Data e hora atual (now), com Unix Timestamp e Timezone diferente (pytz)
+- Aula 162 b
+
+276. datetime.timedelta e dateutil.relativedelta (calculando datas)
+- Aula 163
+
+277. Formatando datas do datetime com strftime no Python
+- Aula 164
+
+278. Exercício solucionado: calculando as datas e parcelas de um empréstimo
+- Aula 165
+
+279. Usando calendar para calendários e datas
+
+
+280. locale para internacionalização (tradução)
+
+
+281. O módulo os para interação com o sistema
+
+
+282. os.path trabalha com caminhos em Windows, Linux e Mac
+
+
+283. os.listdir para navegar em caminhos
+
+
+284. os.walk para navegar de caminhos de forma recursiva
+
+
+285. os.path.getsize e os.stat para dados dos arquivos (tamanho em bytes)
+
+
+286. os + shutil - Copiando arquivos e criando pastas com Python
+
+
+287. os + shutil - Apagando, copiando, movendo e renomeando pastas com Python
+
+
+288. O que é JSON - JavaScript Object Notation
+
+
+289. json.dumps e json.loads com strings + typing.TypedDict
+
+
+290. json.dump e json.load com arquivos
+
+
+291. Manipulando caminhos, pastas e arquivos no Python com pathlib (aula externa)
+
+
+292. CSV (Comma Separated Values - Valores separados por vírgulas)
+
+
+293. csv.reader e csv.DictReader para ler arquivos CSV
+
+
+294. csv.writer e csv.DictWriter para escrever em CSV
+
+
+295. random tem geradores de números pseudoaleatórios (randrange, randint, uniform)
+
+
+296. random tem geradores de números pseudoaleatórios (sample, choices, seed)
+
+
+297. secrets gera números aleatórios seguros
+
+
+298. string.Template para substituir variáveis em textos
+
+
+299. (Parte 1) Variáveis de ambiente com os.getenv, os.environ e python-dotenv
+
+
+300. (Parte 2) Variáveis de ambiente com os.getenv, os.environ e python-dotenv (.env)
+
+
+301. python-dotenv explicação simples em texto
+
+
+302. Configurando o SMTP e senhas de apps no GMAIL para enviar e-mails com Python
+
+
+303. Enviando E-mails SMTP com Python
+
+
+304. (Parte 1) ZIP - Compactando / Descompactando arquivos com zipfile.ZipFile
+
+
+305. (Parte 2) ZIP - Compactando / Descompactando arquivos com zipfile.ZipFile
+
+
+306. sys.argv - Executando arquivos com argumentos no sistema
+
+
+307. argparse.ArgumentParser para argumentos mais complexos
+
+
+308. (Parte 1) Básico do protocolo HTTP (HyperText Transfer Protocol)
+
+
+309. (Parte 2) Básico do protocolo HTTP (HyperText Transfer Protocol)
+
+
+310. http.server - servindo arquivos HTML e CSS via HTTP com um comando Python
+
+
+311. requests para requisições HTTP com Python (entenda request e response)
+
+
+312. (parte 1) Web Scraping com Python usando requests e bs4 BeautifulSoup
+
+
+313. (parte 2) Web Scraping com Python usando requests e bs4 BeautifulSoup
+
+
+314. Adicionando "encoding" no BeautifulSoup 4 para evitar problemas com caracteres
+
+
+315. Escolhendo e baixando o chromedriver para o Selenium e Google Chrome
+
+
+316. Selenium - Automatizando tarefas no navegador
+
+
+317. Selenium - Selecionando elementos com By, expected_conditions e WebDriverWait
+
+
+318. Selenium - Enviando teclas com a classe Keys
+
+
+319. Selenium - find_element e find_elements By
+
+
+320. TEORIA: subprocess para executando programas e comandos externos
+
+
+321. subprocess para executando programas e comandos externos
+
+
+322. Jupyter Notebook - Instalação e teste
+
+
+323. Jupyter Notebook - Exemplos
+
+
+324. (Parte 1) Threads - Executando processamentos em paralelo
+
+
+325. (Parte 2) Threads - Executando processamentos em paralelo
+
+
+326. (Parte 3) Threads - Executando processamentos em paralelo
+
+
+327. PyPDF2 para manipular arquivos PDF (Instalação)
+
+
+328. PyPDF2 para manipular arquivos PDF (PdfReader)
+
+
+329. PyPDF2 para manipular arquivos PDF (PdfWriter)
+
+
+330. PyPDF2 para manipular arquivos PDF (PdfMerger)
+
+
+331. Deque - Trabalhando com LIFO e FIFO
+
+
+332. Dica: remover regras de tipos Unknown do linter do VS Code
+
+
+333. openpyxl para arquivos Excel xlsx, xlsm, xltx e xltm (instalação)
+
+
+334. openpyxl - criando uma planilha do Excel (Workbook e Worksheet)
+
+
+335. openpyxl - manipulando as planilhas do Workbook
+
+
+336. openpyxl - ler e alterar dados de uma planilha
+
+
+337. Pillow: redimensionando imagens com Python
