@@ -829,16 +829,16 @@ Seção 6: Módulos Python - os, datetime, sys, json, csv, selenium, pillow e ma
 - Aula 165
 
 279. Usando calendar para calendários e datas
-
+- Aula 166
 
 280. locale para internacionalização (tradução)
-
+- Aula 167
 
 281. O módulo os para interação com o sistema
-
+- Aula 168
 
 282. os.path trabalha com caminhos em Windows, Linux e Mac
-
+- Aula 169
 
 283. os.listdir para navegar em caminhos
 
