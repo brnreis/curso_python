@@ -841,52 +841,52 @@ Seção 6: Módulos Python - os, datetime, sys, json, csv, selenium, pillow e ma
 - Aula 169
 
 283. os.listdir para navegar em caminhos
-
+- Aula 170
 
 284. os.walk para navegar de caminhos de forma recursiva
-
+- Aula 171
 
 285. os.path.getsize e os.stat para dados dos arquivos (tamanho em bytes)
-
+- Aula 172
 
 286. os + shutil - Copiando arquivos e criando pastas com Python
-
+- Aula 173
 
 287. os + shutil - Apagando, copiando, movendo e renomeando pastas com Python
-
+- Aula 174
 
 288. O que é JSON - JavaScript Object Notation
-
+- Aula 175
 
 289. json.dumps e json.loads com strings + typing.TypedDict
-
+- Aula 176
 
 290. json.dump e json.load com arquivos
-
+- Aula 177
 
 291. Manipulando caminhos, pastas e arquivos no Python com pathlib (aula externa)
-
+- Aula 178 a
 
 292. CSV (Comma Separated Values - Valores separados por vírgulas)
-
+- Aula 178 b
 
 293. csv.reader e csv.DictReader para ler arquivos CSV
-
+- Aula 179
 
 294. csv.writer e csv.DictWriter para escrever em CSV
-
+- Aula 180
 
 295. random tem geradores de números pseudoaleatórios (randrange, randint, uniform)
-
+- Aula 181
 
 296. random tem geradores de números pseudoaleatórios (sample, choices, seed)
-
+- Aula 181
 
 297. secrets gera números aleatórios seguros
-
+- Aula 182
 
 298. string.Template para substituir variáveis em textos
-
+- 
 
 299. (Parte 1) Variáveis de ambiente com os.getenv, os.environ e python-dotenv
 
