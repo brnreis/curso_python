@@ -886,34 +886,34 @@ Seção 6: Módulos Python - os, datetime, sys, json, csv, selenium, pillow e ma
 - Aula 182
 
 298. string.Template para substituir variáveis em textos
-- 
+- Aula 183
 
 299. (Parte 1) Variáveis de ambiente com os.getenv, os.environ e python-dotenv
-
+- Aula 184
 
 300. (Parte 2) Variáveis de ambiente com os.getenv, os.environ e python-dotenv (.env)
-
+- Aula 184
 
 301. python-dotenv explicação simples em texto
-
+- Aula 185
 
 302. Configurando o SMTP e senhas de apps no GMAIL para enviar e-mails com Python
-
+- Aula 185
 
 303. Enviando E-mails SMTP com Python
-
+- Aula 185
 
 304. (Parte 1) ZIP - Compactando / Descompactando arquivos com zipfile.ZipFile
-
+- Aula 186
 
 305. (Parte 2) ZIP - Compactando / Descompactando arquivos com zipfile.ZipFile
-
+- Aula 186
 
 306. sys.argv - Executando arquivos com argumentos no sistema
-
+- Aula 187
 
 307. argparse.ArgumentParser para argumentos mais complexos
-
+- Aula 188
 
 308. (Parte 1) Básico do protocolo HTTP (HyperText Transfer Protocol)
 
