@@ -7,8 +7,12 @@ CAMINHO_CSV = Path(__file__).parent / 'teste1.csv'
 
 with open(CAMINHO_CSV, 'r') as arquivo:
     lista_aulas = csv.DictReader(arquivo, delimiter=';')
-    nome_colunas = ['titulo_aula', 'descricao_aula',
-                    'titulo_objeto', 'descricao_objeto', 'tipo', 'conteudo_objeto']
+    nome_colunas = ['titulo_aula',
+                    'descricao_aula',
+                    'titulo_objeto',
+                    'descricao_objeto',
+                    'tipo',
+                    'conteudo_objeto']
 
     disciplina_anterior = ''
 

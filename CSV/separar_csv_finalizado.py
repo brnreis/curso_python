@@ -15,7 +15,7 @@ with open(CAMINHO_CSV, 'r') as arquivo:
                     'conteudo_objeto']
 
     disciplina_anterior = ''
-    linha1 = {}
+    linha1: dict = {}
 
     for linha in lista_aulas:
 
